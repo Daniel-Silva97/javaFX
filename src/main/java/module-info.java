@@ -7,6 +7,4 @@ module com.example.demofx {
 
     opens com.example.demofx to javafx.fxml;
     exports com.example.demofx;
-    exports gui;
-    opens gui to javafx.fxml;
 }
